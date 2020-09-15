@@ -1,8 +1,9 @@
-// explicitly declaring types in an object
+// tuples //
 var person = {
     name: "Satyaki",
     age: 27,
-    hobbies: ["football", "cricket", "travelling"]
+    hobbies: ["football", "cricket", "travelling"],
+    role: [2, "author"]
 };
 for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
     var hobby = _a[_i];
