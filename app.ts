@@ -1,21 +1,17 @@
-// type alias //
+// Specifying the return type //
 
-type NumStr = number | string;
-type AsNumOrAsText = "as-number" | "as-text";
-
-function combine(arg1: NumStr, arg2: NumStr, result: AsNumOrAsText) {
-  if (result === "as-number") {
-    return +arg1 + +arg2;
-  } else if (result === "as-text") {
-    return arg1.toString() + arg2.toString();
-  }
+// returns a number
+function add(num1: number, num2: number): number {
+  return num1 + num2;
 }
 
-console.log(combine(5, 8, "as-number"));
-console.log(combine(5, 8, "as-text"));
-console.log(combine("5", 8, "as-number"));
-console.log(combine("5", 8, "as-text"));
-console.log(combine("Hello ", "World", "as-number"));
-console.log(combine("Hello ", "World", "as-text"));
-console.log(combine("Rank ", 1, "as-number"));
-console.log(combine("Rank ", 1, "as-text"));
+// return void as we are not returning anything
+function printNum1(num: number): void {
+  console.log("Number is: " + num);
+}
+
+// returns undefined as we are explicitly using return keyword
+function printNum2(num: number): undefined {
+  console.log("Number is: " + num);
+  return;
+}
