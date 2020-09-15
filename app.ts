@@ -12,3 +12,11 @@ if (typeof abc === "string") {
 }
 
 console.log(abc, xyz);
+
+// never //
+
+function throwError(message: string, code: number): never {
+  throw { message, code };
+}
+
+throwError("Some error occured", 500);
