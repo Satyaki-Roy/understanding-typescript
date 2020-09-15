@@ -12,3 +12,7 @@ function printNum2(num) {
     console.log("Number is: " + num);
     return;
 }
+// creating a handler for a function
+var sum;
+sum = add;
+console.log(sum(5, 10));

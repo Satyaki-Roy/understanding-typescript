@@ -15,3 +15,8 @@ function printNum2(num: number): undefined {
   console.log("Number is: " + num);
   return;
 }
+
+// creating a handler for a function
+let sum: (a: number, b: number) => number;
+sum = add;
+console.log(sum(5, 10));
