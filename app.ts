@@ -1,8 +1,9 @@
-function combine(
-  arg1: number | string,
-  arg2: number | string,
-  result: "as-number" | "as-text"
-) {
+// type alias //
+
+type NumStr = number | string;
+type AsNumOrAsText = "as-number" | "as-text";
+
+function combine(arg1: NumStr, arg2: NumStr, result: AsNumOrAsText) {
   if (result === "as-number") {
     return +arg1 + +arg2;
   } else if (result === "as-text") {

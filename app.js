@@ -1,3 +1,4 @@
+// type alias //
 function combine(arg1, arg2, result) {
     if (result === "as-number") {
         return +arg1 + +arg2;
