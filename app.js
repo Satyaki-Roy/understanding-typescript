@@ -1,19 +1,8 @@
-// enum //
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["AUTHOR"] = 1] = "AUTHOR";
-    Role[Role["READ_ONLY"] = 2] = "READ_ONLY";
-})(Role || (Role = {}));
-var person = {
-    name: "Satyaki",
-    age: 27,
-    hobbies: ["football", "cricket", "travelling"],
-    role: Role.ADMIN
-};
-for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
-    console.log(hobby.toUpperCase());
+function combine(arg1, arg2) {
+    return typeof arg1 === "number" && typeof arg2 === "number"
+        ? arg1 + arg2
+        : arg1.toString() + arg2.toString();
 }
-if (person.role === 0)
-    console.log("Person is a ADMIN user");
+console.log(combine(5, 8));
+console.log(combine("Hello", "World"));
+console.log(combine("Rank ", 1));
