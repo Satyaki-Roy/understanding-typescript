@@ -28,6 +28,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hVLPdeIGQQ3P7XNSKmOrGMF22x" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600091289920</updated>
       <workItem from="1600091290933" duration="2730000" />
-      <workItem from="1600135372259" duration="1970000" />
+      <workItem from="1600135372259" duration="3134000" />
     </task>
     <servers />
   </component>
