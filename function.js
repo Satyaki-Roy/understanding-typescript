@@ -15,14 +15,14 @@ function printNum2(num) {
 }
 // creating a handler for a function and mentioning
 // that it is going to accept two number and return a number
-var sum;
+let sum;
 sum = add;
 console.log(sum(5, 10));
 // callback function
 function addAndHandle(num1, num2, cb) {
-    var result = num1 + num2;
+    const result = num1 + num2;
     cb(result);
 }
-addAndHandle(1, 5, function (num) {
+addAndHandle(1, 5, (num) => {
     console.log(num);
 });
