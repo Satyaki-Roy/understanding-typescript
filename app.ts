@@ -19,4 +19,4 @@ function throwError(message: string, code: number): never {
   throw { message, code };
 }
 
-throwError("Some error occured", 500);
+throwError("Some error occurred", 500);

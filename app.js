@@ -1,3 +1,4 @@
+"use strict";
 // unknown //
 var abc;
 var xyz;
@@ -11,4 +12,4 @@ console.log(abc, xyz);
 function throwError(message, code) {
     throw { message: message, code: code };
 }
-throwError("Some error occured", 500);
+throwError("Some error occurred", 500);
