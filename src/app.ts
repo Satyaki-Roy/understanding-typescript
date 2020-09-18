@@ -1,6 +1,6 @@
 class Department {
   private readonly id: number;
-  private name: string;
+  private readonly name: string;
   private employees: string[] = [];
 
   constructor(id: number, name: string) {
@@ -22,10 +22,28 @@ class Department {
   }
 }
 
+class ITDepartment extends Department {
+  constructor(id: number, public admins: string[]) {
+    super(id, "IT");
+  }
+
+  noOfAdmins() {
+    console.log(this.admins.length);
+    console.log(this.admins);
+  }
+}
+
+// accounting department
 const accountDepartment = new Department(1, "Accounting");
 console.log(accountDepartment.describe());
-
 accountDepartment.addEmployee("Satyaki");
 accountDepartment.addEmployee("Disha");
-
 accountDepartment.infoOnEmployees();
+
+// IT Dept
+const itDepartment = new ITDepartment(2, ["Keya", "Goutam"]);
+console.log(itDepartment.describe());
+itDepartment.addEmployee("Satyaki");
+itDepartment.addEmployee("Disha");
+itDepartment.infoOnEmployees();
+itDepartment.noOfAdmins();
