@@ -28,6 +28,13 @@ var Department = (function () {
         console.log(this.employees.length);
         console.log(this.employees);
     };
+    Department.createEmployeeObj = function (name, age) {
+        return {
+            name: name,
+            age: age,
+        };
+    };
+    Department.currentYear = 2020;
     return Department;
 }());
 var ITDepartment = (function (_super) {
@@ -72,3 +79,7 @@ itDepartment.infoOnEmployees();
 itDepartment.noOfAdmins();
 itDepartment.noOfComputers = 10;
 console.log(itDepartment.noOfComputers);
+console.log(Department.currentYear);
+console.log(Department.createEmployeeObj("Max", 27));
+console.log(ITDepartment.currentYear);
+console.log(ITDepartment.createEmployeeObj("Rax", 29));

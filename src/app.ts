@@ -20,6 +20,15 @@ class Department {
     console.log(this.employees.length);
     console.log(this.employees);
   }
+
+  static currentYear: number = 2020;
+
+  static createEmployeeObj(name: string, age: number) {
+    return {
+      name,
+      age,
+    };
+  }
 }
 
 class ITDepartment extends Department {
@@ -62,3 +71,10 @@ itDepartment.infoOnEmployees();
 itDepartment.noOfAdmins();
 itDepartment.noOfComputers = 10;
 console.log(itDepartment.noOfComputers);
+
+// Static things in Department class
+console.log(Department.currentYear);
+console.log(Department.createEmployeeObj("Max", 27));
+
+console.log(ITDepartment.currentYear);
+console.log(ITDepartment.createEmployeeObj("Rax", 29));
