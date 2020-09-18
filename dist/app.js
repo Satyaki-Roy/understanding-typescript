@@ -32,11 +32,22 @@ var Department = (function () {
 }());
 var ITDepartment = (function (_super) {
     __extends(ITDepartment, _super);
-    function ITDepartment(id, admins) {
+    function ITDepartment(id, admins, computers) {
         var _this = _super.call(this, id, "IT") || this;
         _this.admins = admins;
+        _this.computers = computers;
         return _this;
     }
+    Object.defineProperty(ITDepartment.prototype, "noOfComputers", {
+        get: function () {
+            return this.computers;
+        },
+        set: function (value) {
+            this.computers = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
     ITDepartment.prototype.noOfAdmins = function () {
         console.log(this.admins.length);
         console.log(this.admins);
@@ -53,9 +64,11 @@ console.log(accountDepartment.describe());
 accountDepartment.addEmployee("Satyaki");
 accountDepartment.addEmployee("Disha");
 accountDepartment.infoOnEmployees();
-var itDepartment = new ITDepartment(2, ["Keya", "Goutam"]);
+var itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
 console.log(itDepartment.describe());
 itDepartment.addEmployee("Satyaki");
 itDepartment.addEmployee("Disha");
 itDepartment.infoOnEmployees();
 itDepartment.noOfAdmins();
+itDepartment.noOfComputers = 10;
+console.log(itDepartment.noOfComputers);

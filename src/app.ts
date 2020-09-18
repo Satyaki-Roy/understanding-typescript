@@ -23,8 +23,16 @@ class Department {
 }
 
 class ITDepartment extends Department {
-  constructor(id: number, public admins: string[]) {
+  constructor(id: number, public admins: string[], private computers: number) {
     super(id, "IT");
+  }
+
+  get noOfComputers() {
+    return this.computers;
+  }
+
+  set noOfComputers(value: number) {
+    this.computers = value;
   }
 
   noOfAdmins() {
@@ -46,9 +54,11 @@ accountDepartment.addEmployee("Disha");
 accountDepartment.infoOnEmployees();
 
 // IT Dept
-const itDepartment = new ITDepartment(2, ["Keya", "Goutam"]);
+const itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
 console.log(itDepartment.describe());
 itDepartment.addEmployee("Satyaki");
 itDepartment.addEmployee("Disha");
 itDepartment.infoOnEmployees();
 itDepartment.noOfAdmins();
+itDepartment.noOfComputers = 10;
+console.log(itDepartment.noOfComputers);
