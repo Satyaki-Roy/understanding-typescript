@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="752b480a-72d3-4006-b48f-95b3569c0c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NodeJs/nodejs-util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +91,8 @@
       <workItem from="1600135372259" duration="15794000" />
       <workItem from="1600223911007" duration="40000" />
       <workItem from="1600223967178" duration="1797000" />
-      <workItem from="1600232451045" duration="4493000" />
+      <workItem from="1600232451045" duration="6575000" />
+      <workItem from="1600259569160" duration="44000" />
     </task>
     <servers />
   </component>
@@ -132,10 +134,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="639" y="183" width="676" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/55.27.1865.1053@55.27.1865.1053" timestamp="1600233166925" />
-    <state x="1192" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600093691104">
+    <state x="1192" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600259611182">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state x="1192" y="310" width="424" height="484" key="FileChooserDialogImpl/55.27.1865.1053@55.27.1865.1053" timestamp="1600093691104" />
+    <state x="1192" y="310" width="424" height="484" key="FileChooserDialogImpl/55.27.1865.1053@55.27.1865.1053" timestamp="1600259611182" />
     <state x="898" y="187" key="SettingsEditor" timestamp="1600093708376">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>

@@ -1,5 +1,7 @@
-const button = document.getElementById("test")!;
+const button = document.getElementById("test");
 
-button.addEventListener("click", () => {
-  console.log("clicked");
-});
+if (button) {
+  button.addEventListener("click", () => {
+    console.log("clicked");
+  });
+}
