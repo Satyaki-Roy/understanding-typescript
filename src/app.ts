@@ -1,7 +1,7 @@
 class Department {
   private readonly id: number;
   private readonly name: string;
-  private employees: string[] = [];
+  protected employees: string[] = [];
 
   constructor(id: number, name: string) {
     this.id = id;
@@ -30,6 +30,11 @@ class ITDepartment extends Department {
   noOfAdmins() {
     console.log(this.admins.length);
     console.log(this.admins);
+  }
+
+  addEmployee(employee: string) {
+    if (employee === "Disha") return;
+    this.employees.push(employee);
   }
 }
 

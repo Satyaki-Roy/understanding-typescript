@@ -41,6 +41,11 @@ var ITDepartment = (function (_super) {
         console.log(this.admins.length);
         console.log(this.admins);
     };
+    ITDepartment.prototype.addEmployee = function (employee) {
+        if (employee === "Disha")
+            return;
+        this.employees.push(employee);
+    };
     return ITDepartment;
 }(Department));
 var accountDepartment = new Department(1, "Accounting");
