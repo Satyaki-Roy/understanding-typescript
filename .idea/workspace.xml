@@ -22,7 +22,13 @@
     <list default="true" id="752b480a-72d3-4006-b48f-95b3569c0c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/basics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/objs-array-enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/objs-array-enum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/unknown-and-never.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/unknown-and-never.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dom-element-check.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +99,7 @@
       <workItem from="1600223967178" duration="1797000" />
       <workItem from="1600232451045" duration="6575000" />
       <workItem from="1600259569160" duration="44000" />
+      <workItem from="1600395148029" duration="4330000" />
     </task>
     <servers />
   </component>
@@ -100,12 +107,11 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/basics.js" />
-        <option value="$PROJECT_DIR$/src/objs-array-enum.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/unknown-and-never.js" />
-        <option value="$PROJECT_DIR$/src/function.js" />
         <option value="$PROJECT_DIR$/src/union-aliases.js" />
+        <option value="$PROJECT_DIR$/src/function.js" />
+        <option value="$PROJECT_DIR$/src/unknown-and-never.js" />
+        <option value="$PROJECT_DIR$/src/objs-array-enum.js" />
+        <option value="$PROJECT_DIR$/src/basics.js" />
       </list>
     </option>
   </component>
@@ -130,9 +136,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="679" y="210" width="607" height="685" key="#TypeScript/55.27.1865.1053@55.27.1865.1053" timestamp="1600137770892" />
-    <state x="639" y="183" width="676" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600233166925">
-      <screen x="55" y="27" width="1865" height="1053" />
+    <state x="601" y="1240" width="527" height="375" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600396222667">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="601" y="1240" width="527" height="375" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.1080.1920.1080/55.0.1865.1080@0.1080.1920.1080" timestamp="1600396222667" />
     <state x="639" y="183" width="676" height="739" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/55.27.1865.1053@55.27.1865.1053" timestamp="1600233166925" />
     <state x="1192" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600259611182">
       <screen x="55" y="27" width="1865" height="1053" />
@@ -142,9 +149,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/55.27.1865.1053@55.27.1865.1053" timestamp="1600093708376" />
-    <state x="650" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1600238595549">
-      <screen x="55" y="27" width="1865" height="1053" />
+    <state x="613" y="1316" width="692" height="696" key="search.everywhere.popup" timestamp="1600397188311">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="613" y="1316" width="692" height="696" key="search.everywhere.popup/0.1080.1920.1080/55.0.1865.1080@0.1080.1920.1080" timestamp="1600397188311" />
     <state x="650" y="257" width="672" height="678" key="search.everywhere.popup/55.27.1865.1053@55.27.1865.1053" timestamp="1600238595549" />
   </component>
 </project>

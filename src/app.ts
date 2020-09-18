@@ -1,7 +1,20 @@
-const button = document.getElementById("test");
+class Department {
+  name: string;
 
-if (button) {
-  button.addEventListener("click", () => {
-    console.log("clicked");
-  });
+  constructor(n: string) {
+    this.name = n;
+  }
+
+  describe(this: Department) {
+    console.log(`Department: ${this.name}`);
+  }
 }
+
+const accountDepartment = new Department("Accounting");
+console.log(accountDepartment.describe());
+
+const copyAccountDept = {
+  name: "Copy of Accounting",
+  describe: accountDepartment.describe,
+};
+console.log(copyAccountDept.describe());
