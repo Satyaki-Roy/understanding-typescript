@@ -23,12 +23,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/basics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dom-element-check.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom-element-check.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/function.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/objs-array-enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/objs-array-enum.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/unknown-and-never.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/unknown-and-never.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dom-element-check.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1600223967178" duration="1797000" />
       <workItem from="1600232451045" duration="6575000" />
       <workItem from="1600259569160" duration="44000" />
-      <workItem from="1600395148029" duration="4330000" />
+      <workItem from="1600395148029" duration="5744000" />
     </task>
     <servers />
   </component>
