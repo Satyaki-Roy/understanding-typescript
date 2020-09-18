@@ -22,12 +22,6 @@
     <list default="true" id="752b480a-72d3-4006-b48f-95b3569c0c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/basics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dom-element-check.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom-element-check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/objs-array-enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/objs-array-enum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/unknown-and-never.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/unknown-and-never.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +94,7 @@
       <workItem from="1600232451045" duration="6575000" />
       <workItem from="1600259569160" duration="44000" />
       <workItem from="1600395148029" duration="5744000" />
+      <workItem from="1600414382956" duration="2635000" />
     </task>
     <servers />
   </component>
