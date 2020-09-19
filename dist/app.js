@@ -18,9 +18,6 @@ var Department = (function () {
         this.id = id;
         this.name = name;
     }
-    Department.prototype.describe = function () {
-        console.log("Department " + this.id + ": " + this.name);
-    };
     Department.prototype.addEmployee = function (employee) {
         this.employees.push(employee);
     };
@@ -55,6 +52,9 @@ var ITDepartment = (function (_super) {
         enumerable: false,
         configurable: true
     });
+    ITDepartment.prototype.describe = function () {
+        console.log("Department " + this.id + ": " + this.name);
+    };
     ITDepartment.prototype.noOfAdmins = function () {
         console.log(this.admins.length);
         console.log(this.admins);
@@ -66,11 +66,6 @@ var ITDepartment = (function (_super) {
     };
     return ITDepartment;
 }(Department));
-var accountDepartment = new Department(1, "Accounting");
-console.log(accountDepartment.describe());
-accountDepartment.addEmployee("Satyaki");
-accountDepartment.addEmployee("Disha");
-accountDepartment.infoOnEmployees();
 var itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
 console.log(itDepartment.describe());
 itDepartment.addEmployee("Satyaki");
