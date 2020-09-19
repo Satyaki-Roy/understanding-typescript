@@ -62,14 +62,11 @@ const itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
 console.log(itDepartment.describe());
 itDepartment.addEmployee("Satyaki");
 itDepartment.addEmployee("Disha");
-itDepartment.infoOnEmployees();
-itDepartment.noOfAdmins();
 itDepartment.noOfComputers = 10;
-console.log(itDepartment.noOfComputers);
 
 // Static things in Department class
 console.log(Department.currentYear);
 console.log(Department.createEmployeeObj("Max", 27));
-
+// Static properties are inherited
 console.log(ITDepartment.currentYear);
 console.log(ITDepartment.createEmployeeObj("Rax", 29));
