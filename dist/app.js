@@ -34,6 +34,23 @@ var Department = (function () {
     Department.currentYear = 2020;
     return Department;
 }());
+var AccountsDepartment = (function (_super) {
+    __extends(AccountsDepartment, _super);
+    function AccountsDepartment() {
+        return _super.call(this, 1, "Account Dept") || this;
+    }
+    AccountsDepartment.prototype.describe = function () {
+        console.log("Department " + this.id + ": " + this.name);
+    };
+    AccountsDepartment.getInstance = function () {
+        if (AccountsDepartment.instance) {
+            return AccountsDepartment.instance;
+        }
+        AccountsDepartment.instance = new AccountsDepartment();
+        return AccountsDepartment.instance;
+    };
+    return AccountsDepartment;
+}(Department));
 var ITDepartment = (function (_super) {
     __extends(ITDepartment, _super);
     function ITDepartment(id, admins, computers) {
@@ -66,12 +83,6 @@ var ITDepartment = (function (_super) {
     };
     return ITDepartment;
 }(Department));
-var itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
-console.log(itDepartment.describe());
-itDepartment.addEmployee("Satyaki");
-itDepartment.addEmployee("Disha");
-itDepartment.noOfComputers = 10;
-console.log(Department.currentYear);
-console.log(Department.createEmployeeObj("Max", 27));
-console.log(ITDepartment.currentYear);
-console.log(ITDepartment.createEmployeeObj("Rax", 29));
+var accountDepartment = AccountsDepartment.getInstance();
+var accountDept = AccountsDepartment.getInstance();
+console.log(accountDepartment === accountDept);

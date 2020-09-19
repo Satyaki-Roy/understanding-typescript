@@ -3,7 +3,7 @@ abstract class Department {
   protected readonly name: string;
   protected employees: string[] = [];
 
-  constructor(id: number, name: string) {
+  protected constructor(id: number, name: string) {
     this.id = id;
     this.name = name;
   }
@@ -26,6 +26,26 @@ abstract class Department {
       name,
       age,
     };
+  }
+}
+
+class AccountsDepartment extends Department {
+  private static instance: AccountsDepartment;
+
+  private constructor() {
+    super(1, "Account Dept");
+  }
+
+  describe() {
+    console.log(`Department ${this.id}: ${this.name}`);
+  }
+
+  static getInstance() {
+    if (AccountsDepartment.instance) {
+      return AccountsDepartment.instance;
+    }
+    AccountsDepartment.instance = new AccountsDepartment();
+    return AccountsDepartment.instance;
   }
 }
 
@@ -57,16 +77,7 @@ class ITDepartment extends Department {
   }
 }
 
-// IT Dept
-const itDepartment = new ITDepartment(2, ["Keya", "Goutam"], 5);
-console.log(itDepartment.describe());
-itDepartment.addEmployee("Satyaki");
-itDepartment.addEmployee("Disha");
-itDepartment.noOfComputers = 10;
-
-// Static things in Department class
-console.log(Department.currentYear);
-console.log(Department.createEmployeeObj("Max", 27));
-// Static properties are inherited
-console.log(ITDepartment.currentYear);
-console.log(ITDepartment.createEmployeeObj("Rax", 29));
+// Account Dept
+const accountDepartment = AccountsDepartment.getInstance();
+const accountDept = AccountsDepartment.getInstance();
+console.log(accountDepartment === accountDept);
