@@ -22,12 +22,7 @@
     <list default="true" id="752b480a-72d3-4006-b48f-95b3569c0c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objs-array-enum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/union-aliases.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unknown-and-never.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <workItem from="1600259569160" duration="44000" />
       <workItem from="1600395148029" duration="5744000" />
       <workItem from="1600414382956" duration="10965000" />
-      <workItem from="1600481932203" duration="6068000" />
+      <workItem from="1600481932203" duration="6327000" />
     </task>
     <servers />
   </component>

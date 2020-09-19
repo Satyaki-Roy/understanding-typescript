@@ -1,10 +1,13 @@
 "use strict";
-var user1;
-user1 = {
-    name: "Satyaki Roy",
-    age: 27,
-    greet: function (str) {
+var GreetUser = (function () {
+    function GreetUser(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    GreetUser.prototype.greet = function (str) {
         console.log(str + " " + this.name);
-    },
-};
-user1.greet("Good Morning");
+    };
+    return GreetUser;
+}());
+var greetUser1 = new GreetUser("Max", 30);
+greetUser1.greet("Morning");
