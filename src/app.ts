@@ -1,6 +1,5 @@
 interface Greet {
-  name: string;
-  age: number;
+  readonly name: string;
 
   greet(str: string): void;
 }
