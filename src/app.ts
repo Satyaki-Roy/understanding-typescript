@@ -1,28 +1,7 @@
-interface Bird {
-  type: "bird";
-  flyingSpeed: number;
-}
+const userInput1 = <HTMLInputElement>document.getElementById("user-input-1");
+userInput1.value = "Hi There 1...";
 
-interface Horse {
-  type: "horse";
-  groundSpeed: number;
-}
+////// ANOTHER WAY //////
 
-type Animal = Bird | Horse;
-
-function speed(animal: Animal) {
-  let speed;
-  switch (animal.type) {
-    case "bird":
-      speed = animal.flyingSpeed;
-      break;
-    case "horse":
-      speed = animal.groundSpeed;
-  }
-  console.log(speed);
-}
-
-speed({
-  type: "bird",
-  flyingSpeed: 25,
-});
+const userInput2 = document.getElementById("user-input-2")! as HTMLInputElement;
+userInput2.value = "Hi There 2...";
