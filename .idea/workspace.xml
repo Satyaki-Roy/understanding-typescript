@@ -22,7 +22,7 @@
     <list default="true" id="752b480a-72d3-4006-b48f-95b3569c0c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/union-types-and-type-guard.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,8 @@
       <workItem from="1600481932203" duration="8231000" />
       <workItem from="1600568982917" duration="610000" />
       <workItem from="1600749615007" duration="1728000" />
-      <workItem from="1600770940553" duration="3770000" />
+      <workItem from="1600770940553" duration="5177000" />
+      <workItem from="1600780723760" duration="437000" />
     </task>
     <servers />
   </component>
