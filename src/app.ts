@@ -29,3 +29,38 @@ function scanAndExtract<T extends object, U extends keyof T>(obj: T, key: U) {
 }
 
 console.log(scanAndExtract({ name: "Satyaki" }, "name"));
+
+//////////////////////////////////////////////////////////////////////////////
+
+class DataStorage<T extends string | number | boolean> {
+  private data: T[] = [];
+
+  addItem(item: T) {
+    this.data.push(item);
+  }
+
+  removeItem(item: T) {
+    if (this.data.indexOf(item) === -1) return;
+    this.data.splice(this.data.indexOf(item), 1);
+  }
+
+  getItems() {
+    return [...this.data];
+  }
+}
+
+// string storage
+const stringStorage = new DataStorage<string>();
+stringStorage.addItem("Hello");
+stringStorage.addItem("Hey");
+stringStorage.addItem("Hi");
+stringStorage.removeItem("Hey");
+console.log(stringStorage.getItems());
+
+// number storage
+const numberStorage = new DataStorage<number>();
+numberStorage.addItem(1);
+numberStorage.addItem(10);
+numberStorage.addItem(100);
+numberStorage.removeItem(10);
+console.log(numberStorage.getItems());

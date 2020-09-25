@@ -18,3 +18,31 @@ function scanAndExtract(obj, key) {
     return obj[key];
 }
 console.log(scanAndExtract({ name: "Satyaki" }, "name"));
+class DataStorage {
+    constructor() {
+        this.data = [];
+    }
+    addItem(item) {
+        this.data.push(item);
+    }
+    removeItem(item) {
+        if (this.data.indexOf(item) === -1)
+            return;
+        this.data.splice(this.data.indexOf(item), 1);
+    }
+    getItems() {
+        return [...this.data];
+    }
+}
+const stringStorage = new DataStorage();
+stringStorage.addItem("Hello");
+stringStorage.addItem("Hey");
+stringStorage.addItem("Hi");
+stringStorage.removeItem("Hey");
+console.log(stringStorage.getItems());
+const numberStorage = new DataStorage();
+numberStorage.addItem(1);
+numberStorage.addItem(10);
+numberStorage.addItem(100);
+numberStorage.removeItem(10);
+console.log(numberStorage.getItems());
