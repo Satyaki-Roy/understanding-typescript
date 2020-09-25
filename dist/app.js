@@ -46,3 +46,11 @@ numberStorage.addItem(10);
 numberStorage.addItem(100);
 numberStorage.removeItem(10);
 console.log(numberStorage.getItems());
+function goalSetting(title, description, completeUntil) {
+    let courseGoal = {};
+    courseGoal.title = title;
+    courseGoal.description = description;
+    courseGoal.description = description;
+    return courseGoal;
+}
+const names = ["Satyaki", "Disha"];

@@ -64,3 +64,31 @@ numberStorage.addItem(10);
 numberStorage.addItem(100);
 numberStorage.removeItem(10);
 console.log(numberStorage.getItems());
+
+//////////////////////////////////////////////////////////////////////////////
+
+type CourseGoal = {
+  title: string;
+  description: string;
+  completeUntil: Date;
+};
+
+function goalSetting(
+  title: string,
+  description: string,
+  completeUntil: Date
+): CourseGoal {
+  let courseGoal: Partial<CourseGoal> = {};
+  courseGoal.title = title;
+  courseGoal.description = description;
+  courseGoal.description = description;
+  return courseGoal as CourseGoal;
+}
+
+//////////////////////////////////////////////////////////////////////////////
+
+const names: Readonly<string[]> = ["Satyaki", "Disha"];
+/* below will through an error in TS
+names.push("Goutam");
+names.pop();
+*/
