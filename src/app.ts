@@ -1,20 +1,7 @@
-// these two are same
-const arr: string[] = []; // normal way
-const arr1: Array<string> = []; // generic way
+function merge<T, U>(objA: T, objB: U) {
+  return Object.assign(objA, objB);
+}
 
-// allow us to call string methods
-arr1[0].split(" ");
+const mergedObj = merge({ name: "Satyaki" }, { age: 27 });
 
-/////////////////////////////////////////////////////////////////////////////
-
-// generic type in promise
-const promise: Promise<string> = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Hi There...");
-  }, 2000);
-});
-
-// using string methods
-promise.then((data) => {
-  data.split(" ");
-});
+console.log(mergedObj.age);
