@@ -14,3 +14,7 @@ function countAndDescribe(element) {
     }
     return [element, descriptionText];
 }
+function scanAndExtract(obj, key) {
+    return obj[key];
+}
+console.log(scanAndExtract({ name: "Satyaki" }, "name"));

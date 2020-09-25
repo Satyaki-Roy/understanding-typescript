@@ -21,3 +21,11 @@ function countAndDescribe<T extends Lengthy>(element: T): [T, string] {
   }
   return [element, descriptionText];
 }
+
+//////////////////////////////////////////////////////////////////////////////
+
+function scanAndExtract<T extends object, U extends keyof T>(obj: T, key: U) {
+  return obj[key];
+}
+
+console.log(scanAndExtract({ name: "Satyaki" }, "name"));
