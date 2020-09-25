@@ -1,6 +1,6 @@
 "use strict";
 function addBasics(num1, num2, showResult, str) {
-    var result = num1 + num2;
+    const result = num1 + num2;
     if (showResult) {
         console.log(str + result);
     }

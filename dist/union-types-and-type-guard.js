@@ -8,27 +8,21 @@ function infoOfEmployee(emp) {
         console.log(emp.startDate);
     }
 }
-var Car = (function () {
-    function Car() {
-    }
-    Car.prototype.drive = function () {
+class Car {
+    drive() {
         console.log("Driving a car......");
-    };
-    return Car;
-}());
-var Truck = (function () {
-    function Truck() {
     }
-    Truck.prototype.drive = function () {
+}
+class Truck {
+    drive() {
         console.log("Driving a truck......");
-    };
-    Truck.prototype.load = function () {
+    }
+    load() {
         console.log("Carrying some load......");
-    };
-    return Truck;
-}());
-var v1 = new Car();
-var v2 = new Truck();
+    }
+}
+const v1 = new Car();
+const v2 = new Truck();
 function vehicleInfo(obj) {
     obj.drive();
     if (obj instanceof Truck) {

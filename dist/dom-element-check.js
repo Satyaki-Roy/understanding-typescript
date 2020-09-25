@@ -1,7 +1,7 @@
 "use strict";
-var button = document.getElementById("test");
+const button = document.getElementById("test");
 if (button) {
-    button.addEventListener("click", function () {
+    button.addEventListener("click", () => {
         console.log("clicked");
     });
 }

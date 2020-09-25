@@ -1,6 +1,6 @@
 "use strict";
 function speed(animal) {
-    var speed;
+    let speed;
     switch (animal.type) {
         case "bird":
             speed = animal.flyingSpeed;

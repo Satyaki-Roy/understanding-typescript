@@ -5,5 +5,5 @@ function addOverload(a, b) {
     }
     return a + b;
 }
-var result = addOverload("Hello", " Baby");
+const result = addOverload("Hello", " Baby");
 console.log(result.split("b"));

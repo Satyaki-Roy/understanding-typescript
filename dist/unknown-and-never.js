@@ -1,6 +1,6 @@
 "use strict";
-var abc;
-var xyz;
+let abc;
+let xyz;
 abc = "Hello";
 xyz = "World";
 if (typeof abc === "string") {
@@ -8,6 +8,6 @@ if (typeof abc === "string") {
 }
 console.log(abc, xyz);
 function throwError(message, code) {
-    throw { message: message, code: code };
+    throw { message, code };
 }
 throwError("Some error occurred", 500);
